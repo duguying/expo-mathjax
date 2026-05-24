@@ -1,0 +1,32 @@
+# Development files
+example/
+__tests__/
+__mocks__/
+src/
+
+# Config & tooling
+tsconfig.json
+jest.config.js
+Makefile
+CLAUDE.md
+.eslintrc*
+.prettierrc*
+
+# Ignore files
+.gitignore
+.npmignore
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node modules (belt-and-suspenders)
+node_modules/
+
+# Git
+.git/
+.github/
+
+# IDE
+.vscode/
+.idea/

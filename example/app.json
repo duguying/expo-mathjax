@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "expo-mathjax-example",
+    "slug": "expo-mathjax-example",
+    "scheme": "expo-mathjax-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.example.expomathjax"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "dev.example.expomathjax"
+    },
+    "plugins": []
+  }
+}

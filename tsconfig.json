@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "Node16",
+    "lib": ["ES2017"],
+    "jsx": "react",
+    "outDir": "build",
+    "rootDir": "src",
+    "declaration": true,
+    "strict": true,
+    "isolatedModules": true,
+    "moduleResolution": "node16",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
+}

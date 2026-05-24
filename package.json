@@ -1,0 +1,61 @@
+{
+    "name": "expo-mathjax",
+    "version": "0.1.0",
+    "description": "MathJax-powered math rendering for React Native via react-native-svg (no native build required)",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/duguying/expo-mathjax.git"
+    },
+    "homepage": "https://github.com/duguying/expo-mathjax",
+    "bugs": {
+        "url": "https://github.com/duguying/expo-mathjax/issues"
+    },
+    "license": "MIT",
+    "files": [
+        "build/",
+        "src/",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepare": "tsc",
+        "test": "jest",
+        "test:watch": "jest --watch"
+    },
+    "keywords": [
+        "expo",
+        "mathjax",
+        "math",
+        "latex",
+        "tex",
+        "mathml",
+        "react-native",
+        "svg",
+        "react-native-svg",
+        "expo-go",
+        "no-native-build"
+    ],
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*",
+        "react-native-svg": ">=13.0.0"
+    },
+    "dependencies": {
+        "mathjax-full": "^3.2.2"
+    },
+    "devDependencies": {
+        "@types/jest": "^30.0.0",
+        "@types/react": "^19.2.15",
+        "@types/react-native": "^0.72.8",
+        "expo-modules-core": "^1.12.26",
+        "jest": "^30.4.2",
+        "react": "^19.2.6",
+        "react-native": "^0.85.3",
+        "react-native-svg": "^15.0.0",
+        "ts-jest": "^29.4.10",
+        "typescript": "^5.9.3"
+    }
+}
